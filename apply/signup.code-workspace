@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "signup",
+			"path": "../../../Users/human-05/Downloads/signup"
+		},
+		{
+			"name": "html_work",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "html_work"
+	}
+}

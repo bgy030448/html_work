@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        width: 1500px;
+      }
+      header {
+        border-bottom: 1px solid gray;
+      }
+
+      footer {
+        border-top: 1px solid gray;
+      }
+
+      nav {
+        border-right: 1px solid gray;
+      }
+
+      aside {
+        border-left: 1px solid gray;
+      }
+
+      nav,
+      aside {
+        /* 너비 고정 
+      */
+        flex-basis: 150px;
+        /* 다른 놈 희생 */
+        flex-shrink: 0;
+      }
+
+      .content {
+        display: flex;
+      }
+
+      main {
+        text-align: justify;
+        padding: 10px;
+        column-count: 4;
+        column-width: 200px;
+        column-gap: 20px;
+        column-rule-color: red;
+        column-rule-style: solid;
+        column-rule-width: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Holy Grail Layout</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li>main</li>
+            <li>about</li>
+            <li>help</li>
+          </ul>
+        </nav>
+        <main>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+            numquam aperiam incidunt libero provident eum illo obcaecati. Quos,
+            vel quam. Odit, est adipisci fugit nisi facere corporis consequatur
+            nesciunt placeat. Inventore deleniti expedita quaerat distinctio
+            accusamus dolor quidem tenetur corrupti libero eveniet, sed, omnis
+            sunt, aspernatur quas laboriosam illo error officiis reprehenderit
+            molestias veniam unde amet consectetur? Dolores, sequi repellendus.
+            Eos nihil molestiae itaque esse! Ducimus sapiente doloribus
+            asperiores modi rem culpa harum perferendis quibusdam explicabo,
+            ipsum tempora dolor magni doloremque saepe sunt assumenda rerum,
+            cumque repellendus sed dolorum deleniti. Voluptatem, officiis
+            deserunt! Consequatur facere at repellat labore numquam sed quos
+            rerum laboriosam autem illum, enim itaque voluptas nesciunt
+            voluptatem laudantium ea voluptatum odit libero molestias
+            necessitatibus! Asperiores, consequuntur id. Voluptates accusamus
+            sit corrupti aperiam fuga maxime, blanditiis officiis eum quibusdam!
+            Aperiam optio modi error, quis provident officia excepturi possimus
+            vero aspernatur, consequuntur consectetur animi porro eius eveniet,
+            magnam qui. Consectetur, nesciunt, distinctio necessitatibus veniam
+            blanditiis quaerat, quisquam esse iusto doloribus similique
+            perferendis ullam quae consequatur reprehenderit doloremque libero
+            ea molestias ratione facere. Accusantium quidem eveniet adipisci,
+            totam laborum quibusdam! Necessitatibus quo, architecto minima
+            laudantium commodi cupiditate rem ex exercitationem quibusdam
+            ratione labore expedita dolorem. Ipsa ipsum debitis esse quam
+            praesentium repellat, illum voluptatem. Repudiandae id fugiat illo a
+            esse. Numquam ipsum animi nostrum labore maiores harum ullam eius
+            quaerat corrupti sit excepturi, modi architecto! Pariatur fugiat
+            beatae ducimus blanditiis alias, placeat fuga dignissimos commodi
+            facilis omnis ipsa deserunt eaque. Nemo aliquid eum saepe unde odio
+            ex voluptates! Labore rem facere neque ea voluptatem non, vitae
+            consequuntur nostrum pariatur cum soluta veritatis necessitatibus
+            velit. Officiis cum fugit labore vel repellat! Expedita aliquid
+            doloribus, eos praesentium explicabo accusamus labore sapiente
+            quaerat adipisci necessitatibus nemo laudantium commodi animi quae
+            corporis asperiores ipsa, consequuntur iure ad voluptas tenetur
+            cumque facere? Vero, omnis deleniti.
+          </p>
+        </main>
+        <aside>AD (광고)</aside>
+      </section>
+      <footer>
+        <a href="www.naver.com">홈페이지</a>
+      </footer>
+    </div>
+  </body>
+</html>
